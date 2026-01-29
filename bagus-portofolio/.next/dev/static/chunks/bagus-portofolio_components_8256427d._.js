@@ -742,13 +742,13 @@ const defaultProjects = [
         id: 'Asetra',
         title: 'Asetra',
         description: 'Clean and intuitive mobile RWA Market Place with focus on user experience',
-        longDescription: 'A comprehensive mobile banking application designed to simplify financial management. The interface prioritizes clarity and ease of use, allowing users to manage accounts, transfer funds, and track expenses with minimal friction. Every interaction was carefully crafted to reduce cognitive load while maintaining security.',
+        longDescription: 'A comprehensive mobile RWA Market Place application designed to simplify user experience. The interface prioritizes clarity and ease of use. Every interaction was carefully crafted to reduce cognitive load while maintaining security.',
         category: 'ui-design',
         tags: [
             'Figma',
             'UI/UX',
-            'Mobile',
-            'Banking'
+            'RWA',
+            'Market Place'
         ],
         features: [
             'Biometric Authentication',
@@ -756,14 +756,14 @@ const defaultProjects = [
             'Expense Tracking',
             'Bill Payments'
         ],
-        year: '2024',
+        year: '2025',
         image: '/images/projects/Asetra.png',
         link: '#'
     },
     {
-        id: 'ui-2',
-        title: 'E-commerce Dashboard',
-        description: 'Comprehensive dashboard design for online store management',
+        id: 'Runera',
+        title: 'Runera',
+        description: 'Comprehensive jogging app dashboard design',
         longDescription: 'An analytics-driven dashboard for e-commerce business owners. This project focuses on presenting complex data in digestible visualizations, enabling quick decision-making. The design system includes customizable widgets, dark/light modes, and responsive layouts for both desktop and tablet use.',
         category: 'ui-design',
         tags: [
@@ -778,7 +778,7 @@ const defaultProjects = [
             'Customer Insights',
             'Order Tracking'
         ],
-        year: '2024',
+        year: '2025',
         image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop',
         link: '#'
     },
