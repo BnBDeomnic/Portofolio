@@ -46,4 +46,4 @@ class RAFManager {
 
 export const rafManager = typeof window !== 'undefined' ? new RAFManager() : ({
     subscribe: () => () => { },
-} as RAFManager);
+} as unknown as RAFManager);
