@@ -18,6 +18,7 @@ export interface Project {
     longDescription?: string;
     features?: string[];
     year?: string;
+    livePreview?: string;
 }
 
 const defaultProjects: Project[] = [
@@ -28,8 +29,8 @@ const defaultProjects: Project[] = [
         description: 'Clean and intuitive mobile RWA Market Place with focus on user experience',
         longDescription: 'A comprehensive mobile RWA Market Place application designed to simplify user experience. The interface prioritizes clarity and ease of use. Every interaction was carefully crafted to reduce cognitive load while maintaining security.',
         category: 'ui-design',
-        tags: ['Figma', 'UI/UX', 'RWA', 'Market Place'],
-        features: ['Biometric Authentication', 'Real-time Notifications', 'Expense Tracking', 'Bill Payments'],
+        tags: ['Figma', 'UI/UX', 'RWA'],
+        features: ['Blockchain Based', 'Real-time Notifications', 'User Friendly Interface', 'Secure Transactions'],
         year: '2025',
         image: '/images/projects/Asetra.png',
         link: '#',
@@ -40,28 +41,29 @@ const defaultProjects: Project[] = [
         description: 'Comprehensive jogging app dashboard design',
         longDescription: 'An analytics-driven dashboard for e-commerce business owners. This project focuses on presenting complex data in digestible visualizations, enabling quick decision-making. The design system includes customizable widgets, dark/light modes, and responsive layouts for both desktop and tablet use.',
         category: 'ui-design',
-        tags: ['Figma', 'Dashboard', 'Analytics', 'E-commerce'],
-        features: ['Sales Analytics', 'Inventory Management', 'Customer Insights', 'Order Tracking'],
+        tags: ['Figma', 'Dashboard', 'Analytics'],
+        features: ['Blockchain Based', 'NFT as Identity', 'User Friendly Interface', 'Colorfull Design'],
         year: '2025',
-        image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop',
+        image: 'https://images.unsplash.com/photo-1512314889357-e157c22f938d?w=800&h=600&fit=crop',
         link: '#',
     },
     // Web Development
     {
-        id: 'web-1',
-        title: 'SaaS Landing Page',
-        description: 'High-converting landing page with smooth animations and modern design',
-        longDescription: 'A performance-optimized landing page built for a SaaS startup. Features include scroll-triggered animations, lazy-loaded content, and a fully responsive design. The page achieved a 40% improvement in conversion rate compared to the previous version through strategic UX improvements.',
+        id: 'Sched-Me',
+        title: 'Sched-Me',
+        description: 'Personal schedule platform with image export functionality',
+        longDescription: 'A digital platform serving as a personal scheduler that allows users to create and manage their weekly schedules with ease. The application features an intuitive interface for organizing classes, activities, and appointments, with the ability to export the schedule as an image for easy sharing. Built with modern web technologies for optimal performance.',
         category: 'web',
-        tags: ['Next.js', 'Tailwind', 'GSAP', 'TypeScript'],
-        features: ['Scroll Animations', 'Form Validation', 'SEO Optimized', 'Analytics Integration'],
-        year: '2024',
-        image: 'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800&h=600&fit=crop',
-        link: '#',
+        tags: ['Next.js', 'TypeScript', 'React', 'Tailwind', 'Supabase'],
+        features: ['Schedule Management', 'Image Export', 'Responsive Design', 'User-Friendly Interface'],
+        year: '2025',
+        image: '/images/projects/SchedMe.png',
+        link: 'https://personal-schedule-six.vercel.app/',
+        livePreview: 'https://personal-schedule-six.vercel.app/',
     },
     {
-        id: 'web-2',
-        title: 'Portfolio Website',
+        id: 'Alna Card',
+        title: 'Alna Card',
         description: 'Creative portfolio showcasing work with interactive elements',
         longDescription: 'A personal portfolio website featuring WebGL backgrounds, custom cursor interactions, and smooth page transitions. Built with performance in mind, achieving perfect Lighthouse scores while maintaining rich visual effects.',
         category: 'web',
@@ -71,31 +73,21 @@ const defaultProjects: Project[] = [
         image: 'https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=800&h=600&fit=crop',
         link: '#',
     },
-    // Asset Design
     {
-        id: 'asset-1',
-        title: 'Brand Identity Kit',
-        description: 'Complete brand identity including logo, colors, and typography',
-        longDescription: 'A full brand identity system created for a tech startup. The project included primary and secondary logos, color palette with accessibility considerations, typography hierarchy, iconography, and comprehensive brand guidelines documentation.',
-        category: 'asset-design',
-        tags: ['Illustrator', 'Branding', 'Logo', 'Identity'],
-        features: ['Logo Variations', 'Color System', 'Typography Guide', 'Brand Guidelines'],
-        year: '2024',
-        image: 'https://images.unsplash.com/photo-1626785774573-4b799315345d?w=800&h=600&fit=crop',
-        link: '#',
-    },
-    {
-        id: 'asset-2',
-        title: '3D Icon Pack',
-        description: 'Custom 3D icons for mobile and web applications',
-        longDescription: 'A collection of 50+ 3D icons designed for modern applications. Each icon was modeled in Blender and rendered with carefully crafted lighting to ensure consistency. The pack includes various categories and is available in multiple formats.',
-        category: 'asset-design',
-        tags: ['Blender', '3D', 'Icons', 'Assets'],
-        features: ['50+ Icons', 'Multiple Formats', 'Customizable Colors', 'High Resolution'],
+        id: 'Centurion',
+        title: 'Centurion',
+        description: 'Creative portfolio showcasing work with interactive elements',
+        longDescription: 'A personal portfolio website featuring WebGL backgrounds, custom cursor interactions, and smooth page transitions. Built with performance in mind, achieving perfect Lighthouse scores while maintaining rich visual effects.',
+        category: 'web',
+        tags: ['Next.js', 'TypeScript', 'React', 'Tailwind', 'Supabase'],
+        features: ['User Friendly Interface', 'Filter and Search', 'Responsive Design', 'Dark Mode'],
         year: '2023',
-        image: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&h=600&fit=crop',
-        link: '#',
+        image: '/images/projects/Centurion.jpg',
+        link: 'https://centurion-wt8v.vercel.app/',
+        livePreview: 'https://centurion-wt8v.vercel.app/',
     },
+    // Asset Design
+
 ];
 
 const categories = [
@@ -369,12 +361,22 @@ export function ProjectShowcase({ projects = defaultProjects }: ProjectShowcaseP
                     >
                         {/* Left Side - Image (35%) */}
                         <div className="lg:w-[35%] h-[200px] lg:h-auto flex-shrink-0 relative bg-[var(--color-surface)]">
-                            <Image
-                                src={selectedProject.image}
-                                alt={selectedProject.title}
-                                fill
-                                className="object-cover"
-                            />
+                            {selectedProject.livePreview ? (
+                                <iframe
+                                    src={selectedProject.livePreview}
+                                    className="w-full h-full border-none"
+                                    title={`${selectedProject.title} Preview`}
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    loading="lazy"
+                                />
+                            ) : (
+                                <Image
+                                    src={selectedProject.image}
+                                    alt={selectedProject.title}
+                                    fill
+                                    className="object-cover"
+                                />
+                            )}
                             {/* Close button */}
                             <button
                                 onClick={closeProject}

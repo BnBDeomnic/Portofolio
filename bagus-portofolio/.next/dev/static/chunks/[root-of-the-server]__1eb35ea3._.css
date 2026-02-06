@@ -1122,6 +1122,11 @@
     border-bottom-width: 1px;
   }
 
+  .border-none {
+    --tw-border-style: none;
+    border-style: none;
+  }
+
   .border-\[var\(--color-border\)\] {
     border-color: var(--color-border);
   }

@@ -747,14 +747,13 @@ const defaultProjects = [
         tags: [
             'Figma',
             'UI/UX',
-            'RWA',
-            'Market Place'
+            'RWA'
         ],
         features: [
-            'Biometric Authentication',
+            'Blockchain Based',
             'Real-time Notifications',
-            'Expense Tracking',
-            'Bill Payments'
+            'User Friendly Interface',
+            'Secure Transactions'
         ],
         year: '2025',
         image: '/images/projects/Asetra.png',
@@ -769,45 +768,46 @@ const defaultProjects = [
         tags: [
             'Figma',
             'Dashboard',
-            'Analytics',
-            'E-commerce'
+            'Analytics'
         ],
         features: [
-            'Sales Analytics',
-            'Inventory Management',
-            'Customer Insights',
-            'Order Tracking'
+            'Blockchain Based',
+            'NFT as Identity',
+            'User Friendly Interface',
+            'Colorfull Design'
         ],
         year: '2025',
-        image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop',
+        image: 'https://images.unsplash.com/photo-1512314889357-e157c22f938d?w=800&h=600&fit=crop',
         link: '#'
     },
     // Web Development
     {
-        id: 'web-1',
-        title: 'SaaS Landing Page',
-        description: 'High-converting landing page with smooth animations and modern design',
-        longDescription: 'A performance-optimized landing page built for a SaaS startup. Features include scroll-triggered animations, lazy-loaded content, and a fully responsive design. The page achieved a 40% improvement in conversion rate compared to the previous version through strategic UX improvements.',
+        id: 'Sched-Me',
+        title: 'Sched-Me',
+        description: 'Personal schedule platform with image export functionality',
+        longDescription: 'A digital platform serving as a personal scheduler that allows users to create and manage their weekly schedules with ease. The application features an intuitive interface for organizing classes, activities, and appointments, with the ability to export the schedule as an image for easy sharing. Built with modern web technologies for optimal performance.',
         category: 'web',
         tags: [
             'Next.js',
+            'TypeScript',
+            'React',
             'Tailwind',
-            'GSAP',
-            'TypeScript'
+            'Supabase'
         ],
         features: [
-            'Scroll Animations',
-            'Form Validation',
-            'SEO Optimized',
-            'Analytics Integration'
+            'Schedule Management',
+            'Image Export',
+            'Responsive Design',
+            'User-Friendly Interface'
         ],
-        year: '2024',
-        image: 'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800&h=600&fit=crop',
-        link: '#'
+        year: '2025',
+        image: '/images/projects/SchedMe.png',
+        link: 'https://personal-schedule-six.vercel.app/',
+        livePreview: 'https://personal-schedule-six.vercel.app/'
     },
     {
-        id: 'web-2',
-        title: 'Portfolio Website',
+        id: 'Alna Card',
+        title: 'Alna Card',
         description: 'Creative portfolio showcasing work with interactive elements',
         longDescription: 'A personal portfolio website featuring WebGL backgrounds, custom cursor interactions, and smooth page transitions. Built with performance in mind, achieving perfect Lighthouse scores while maintaining rich visual effects.',
         category: 'web',
@@ -827,50 +827,29 @@ const defaultProjects = [
         image: 'https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=800&h=600&fit=crop',
         link: '#'
     },
-    // Asset Design
     {
-        id: 'asset-1',
-        title: 'Brand Identity Kit',
-        description: 'Complete brand identity including logo, colors, and typography',
-        longDescription: 'A full brand identity system created for a tech startup. The project included primary and secondary logos, color palette with accessibility considerations, typography hierarchy, iconography, and comprehensive brand guidelines documentation.',
-        category: 'asset-design',
+        id: 'Centurion',
+        title: 'Centurion',
+        description: 'Creative portfolio showcasing work with interactive elements',
+        longDescription: 'A personal portfolio website featuring WebGL backgrounds, custom cursor interactions, and smooth page transitions. Built with performance in mind, achieving perfect Lighthouse scores while maintaining rich visual effects.',
+        category: 'web',
         tags: [
-            'Illustrator',
-            'Branding',
-            'Logo',
-            'Identity'
+            'Next.js',
+            'TypeScript',
+            'React',
+            'Tailwind',
+            'Supabase'
         ],
         features: [
-            'Logo Variations',
-            'Color System',
-            'Typography Guide',
-            'Brand Guidelines'
-        ],
-        year: '2024',
-        image: 'https://images.unsplash.com/photo-1626785774573-4b799315345d?w=800&h=600&fit=crop',
-        link: '#'
-    },
-    {
-        id: 'asset-2',
-        title: '3D Icon Pack',
-        description: 'Custom 3D icons for mobile and web applications',
-        longDescription: 'A collection of 50+ 3D icons designed for modern applications. Each icon was modeled in Blender and rendered with carefully crafted lighting to ensure consistency. The pack includes various categories and is available in multiple formats.',
-        category: 'asset-design',
-        tags: [
-            'Blender',
-            '3D',
-            'Icons',
-            'Assets'
-        ],
-        features: [
-            '50+ Icons',
-            'Multiple Formats',
-            'Customizable Colors',
-            'High Resolution'
+            'User Friendly Interface',
+            'Filter and Search',
+            'Responsive Design',
+            'Dark Mode'
         ],
         year: '2023',
-        image: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&h=600&fit=crop',
-        link: '#'
+        image: '/images/projects/Centurion.jpg',
+        link: 'https://centurion-wt8v.vercel.app/',
+        livePreview: 'https://centurion-wt8v.vercel.app/'
     }
 ];
 const categories = [
@@ -1025,17 +1004,17 @@ function ProjectShowcase({ projects = defaultProjects }) {
                             children: "Selected Projects •"
                         }, i, false, {
                             fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                            lineNumber: 202,
+                            lineNumber: 194,
                             columnNumber: 25
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                    lineNumber: 200,
+                    lineNumber: 192,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                lineNumber: 199,
+                lineNumber: 191,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$bagus$2d$portofolio$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_$40$babel$2b$core$40$7$2e$2_f33b48a70247a9dd1be9ff747c251290$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1048,17 +1027,17 @@ function ProjectShowcase({ projects = defaultProjects }) {
                             children: cat.label
                         }, cat.id, false, {
                             fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                            lineNumber: 217,
+                            lineNumber: 209,
                             columnNumber: 25
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                    lineNumber: 215,
+                    lineNumber: 207,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                lineNumber: 214,
+                lineNumber: 206,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$bagus$2d$portofolio$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_$40$babel$2b$core$40$7$2e$2_f33b48a70247a9dd1be9ff747c251290$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1068,14 +1047,14 @@ function ProjectShowcase({ projects = defaultProjects }) {
                         className: "absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-[var(--color-surface)] to-transparent z-10 pointer-events-none"
                     }, void 0, false, {
                         fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                        lineNumber: 233,
+                        lineNumber: 225,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$bagus$2d$portofolio$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_$40$babel$2b$core$40$7$2e$2_f33b48a70247a9dd1be9ff747c251290$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-[var(--color-surface)] to-transparent z-10 pointer-events-none"
                     }, void 0, false, {
                         fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                        lineNumber: 234,
+                        lineNumber: 226,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$bagus$2d$portofolio$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_$40$babel$2b$core$40$7$2e$2_f33b48a70247a9dd1be9ff747c251290$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1096,14 +1075,14 @@ function ProjectShowcase({ projects = defaultProjects }) {
                                                 className: "object-cover group-hover:scale-105 transition-transform duration-500"
                                             }, void 0, false, {
                                                 fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                                                lineNumber: 243,
+                                                lineNumber: 235,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$bagus$2d$portofolio$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_$40$babel$2b$core$40$7$2e$2_f33b48a70247a9dd1be9ff747c251290$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                                             }, void 0, false, {
                                                 fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                                                lineNumber: 249,
+                                                lineNumber: 241,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$bagus$2d$portofolio$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_$40$babel$2b$core$40$7$2e$2_f33b48a70247a9dd1be9ff747c251290$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1114,7 +1093,7 @@ function ProjectShowcase({ projects = defaultProjects }) {
                                                         children: project.title
                                                     }, void 0, false, {
                                                         fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                                                        lineNumber: 251,
+                                                        lineNumber: 243,
                                                         columnNumber: 37
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$bagus$2d$portofolio$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_$40$babel$2b$core$40$7$2e$2_f33b48a70247a9dd1be9ff747c251290$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1122,19 +1101,19 @@ function ProjectShowcase({ projects = defaultProjects }) {
                                                         children: project.description
                                                     }, void 0, false, {
                                                         fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                                                        lineNumber: 252,
+                                                        lineNumber: 244,
                                                         columnNumber: 37
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                                                lineNumber: 250,
+                                                lineNumber: 242,
                                                 columnNumber: 33
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                                        lineNumber: 242,
+                                        lineNumber: 234,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$bagus$2d$portofolio$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_$40$babel$2b$core$40$7$2e$2_f33b48a70247a9dd1be9ff747c251290$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1147,7 +1126,7 @@ function ProjectShowcase({ projects = defaultProjects }) {
                                                         children: project.title
                                                     }, void 0, false, {
                                                         fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                                                        lineNumber: 258,
+                                                        lineNumber: 250,
                                                         columnNumber: 37
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$bagus$2d$portofolio$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_$40$babel$2b$core$40$7$2e$2_f33b48a70247a9dd1be9ff747c251290$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1155,13 +1134,13 @@ function ProjectShowcase({ projects = defaultProjects }) {
                                                         children: categories.find((c)=>c.id === project.category)?.label
                                                     }, void 0, false, {
                                                         fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                                                        lineNumber: 259,
+                                                        lineNumber: 251,
                                                         columnNumber: 37
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                                                lineNumber: 257,
+                                                lineNumber: 249,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$bagus$2d$portofolio$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_$40$babel$2b$core$40$7$2e$2_f33b48a70247a9dd1be9ff747c251290$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1170,30 +1149,30 @@ function ProjectShowcase({ projects = defaultProjects }) {
                                                 children: "Expand"
                                             }, void 0, false, {
                                                 fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                                                lineNumber: 263,
+                                                lineNumber: 255,
                                                 columnNumber: 33
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                                        lineNumber: 256,
+                                        lineNumber: 248,
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, `${project.id}-${index}`, true, {
                                 fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                                lineNumber: 238,
+                                lineNumber: 230,
                                 columnNumber: 25
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                        lineNumber: 236,
+                        lineNumber: 228,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                lineNumber: 232,
+                lineNumber: 224,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$bagus$2d$portofolio$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_$40$babel$2b$core$40$7$2e$2_f33b48a70247a9dd1be9ff747c251290$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1217,23 +1196,23 @@ function ProjectShowcase({ projects = defaultProjects }) {
                                 d: "M17 8l4 4m0 0l-4 4m4-4H3"
                             }, void 0, false, {
                                 fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                                lineNumber: 283,
+                                lineNumber: 275,
                                 columnNumber: 25
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                            lineNumber: 282,
+                            lineNumber: 274,
                             columnNumber: 21
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                    lineNumber: 277,
+                    lineNumber: 269,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                lineNumber: 276,
+                lineNumber: 268,
                 columnNumber: 13
             }, this),
             showAllProjects && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$bagus$2d$portofolio$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_$40$babel$2b$core$40$7$2e$2_f33b48a70247a9dd1be9ff747c251290$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1256,7 +1235,7 @@ function ProjectShowcase({ projects = defaultProjects }) {
                                     children: "All Projects"
                                 }, void 0, false, {
                                     fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                                    lineNumber: 298,
+                                    lineNumber: 290,
                                     columnNumber: 29
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$bagus$2d$portofolio$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_$40$babel$2b$core$40$7$2e$2_f33b48a70247a9dd1be9ff747c251290$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1275,23 +1254,23 @@ function ProjectShowcase({ projects = defaultProjects }) {
                                             d: "M6 18L18 6M6 6l12 12"
                                         }, void 0, false, {
                                             fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                                            lineNumber: 307,
+                                            lineNumber: 299,
                                             columnNumber: 37
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                                        lineNumber: 306,
+                                        lineNumber: 298,
                                         columnNumber: 33
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                                    lineNumber: 301,
+                                    lineNumber: 293,
                                     columnNumber: 29
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                            lineNumber: 297,
+                            lineNumber: 289,
                             columnNumber: 25
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$bagus$2d$portofolio$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_$40$babel$2b$core$40$7$2e$2_f33b48a70247a9dd1be9ff747c251290$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1302,12 +1281,12 @@ function ProjectShowcase({ projects = defaultProjects }) {
                                     children: cat.label
                                 }, cat.id, false, {
                                     fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                                    lineNumber: 315,
+                                    lineNumber: 307,
                                     columnNumber: 33
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                            lineNumber: 313,
+                            lineNumber: 305,
                             columnNumber: 25
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$bagus$2d$portofolio$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_$40$babel$2b$core$40$7$2e$2_f33b48a70247a9dd1be9ff747c251290$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1328,12 +1307,12 @@ function ProjectShowcase({ projects = defaultProjects }) {
                                                 className: "object-cover group-hover:scale-105 transition-transform duration-500"
                                             }, void 0, false, {
                                                 fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                                                lineNumber: 340,
+                                                lineNumber: 332,
                                                 columnNumber: 41
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                                            lineNumber: 339,
+                                            lineNumber: 331,
                                             columnNumber: 37
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$bagus$2d$portofolio$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_$40$babel$2b$core$40$7$2e$2_f33b48a70247a9dd1be9ff747c251290$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1341,7 +1320,7 @@ function ProjectShowcase({ projects = defaultProjects }) {
                                             children: project.title
                                         }, void 0, false, {
                                             fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                                            lineNumber: 347,
+                                            lineNumber: 339,
                                             columnNumber: 37
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$bagus$2d$portofolio$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_$40$babel$2b$core$40$7$2e$2_f33b48a70247a9dd1be9ff747c251290$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1349,29 +1328,29 @@ function ProjectShowcase({ projects = defaultProjects }) {
                                             children: project.description
                                         }, void 0, false, {
                                             fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                                            lineNumber: 350,
+                                            lineNumber: 342,
                                             columnNumber: 37
                                         }, this)
                                     ]
                                 }, project.id, true, {
                                     fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                                    lineNumber: 331,
+                                    lineNumber: 323,
                                     columnNumber: 33
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                            lineNumber: 329,
+                            lineNumber: 321,
                             columnNumber: 25
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                    lineNumber: 295,
+                    lineNumber: 287,
                     columnNumber: 21
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                lineNumber: 290,
+                lineNumber: 282,
                 columnNumber: 17
             }, this),
             isExpanded && selectedProject && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$bagus$2d$portofolio$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_$40$babel$2b$core$40$7$2e$2_f33b48a70247a9dd1be9ff747c251290$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1386,15 +1365,25 @@ function ProjectShowcase({ projects = defaultProjects }) {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$bagus$2d$portofolio$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_$40$babel$2b$core$40$7$2e$2_f33b48a70247a9dd1be9ff747c251290$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "lg:w-[35%] h-[200px] lg:h-auto flex-shrink-0 relative bg-[var(--color-surface)]",
                             children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$bagus$2d$portofolio$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_$40$babel$2b$core$40$7$2e$2_f33b48a70247a9dd1be9ff747c251290$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$bagus$2d$portofolio$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_$40$babel$2b$core$40$7$2e$2_f33b48a70247a9dd1be9ff747c251290$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                selectedProject.livePreview ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$bagus$2d$portofolio$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_$40$babel$2b$core$40$7$2e$2_f33b48a70247a9dd1be9ff747c251290$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("iframe", {
+                                    src: selectedProject.livePreview,
+                                    className: "w-full h-full border-none",
+                                    title: `${selectedProject.title} Preview`,
+                                    allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
+                                    loading: "lazy"
+                                }, void 0, false, {
+                                    fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
+                                    lineNumber: 365,
+                                    columnNumber: 33
+                                }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$bagus$2d$portofolio$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_$40$babel$2b$core$40$7$2e$2_f33b48a70247a9dd1be9ff747c251290$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$bagus$2d$portofolio$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_$40$babel$2b$core$40$7$2e$2_f33b48a70247a9dd1be9ff747c251290$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                     src: selectedProject.image,
                                     alt: selectedProject.title,
                                     fill: true,
                                     className: "object-cover"
                                 }, void 0, false, {
                                     fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                                    lineNumber: 372,
-                                    columnNumber: 29
+                                    lineNumber: 373,
+                                    columnNumber: 33
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$bagus$2d$portofolio$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_$40$babel$2b$core$40$7$2e$2_f33b48a70247a9dd1be9ff747c251290$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                     onClick: closeProject,
@@ -1412,17 +1401,17 @@ function ProjectShowcase({ projects = defaultProjects }) {
                                             d: "M6 18L18 6M6 6l12 12"
                                         }, void 0, false, {
                                             fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                                            lineNumber: 385,
+                                            lineNumber: 387,
                                             columnNumber: 37
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                                        lineNumber: 384,
+                                        lineNumber: 386,
                                         columnNumber: 33
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                                    lineNumber: 379,
+                                    lineNumber: 381,
                                     columnNumber: 29
                                 }, this),
                                 selectedProject.year && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$bagus$2d$portofolio$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_$40$babel$2b$core$40$7$2e$2_f33b48a70247a9dd1be9ff747c251290$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1430,13 +1419,13 @@ function ProjectShowcase({ projects = defaultProjects }) {
                                     children: selectedProject.year
                                 }, void 0, false, {
                                     fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                                    lineNumber: 390,
+                                    lineNumber: 392,
                                     columnNumber: 33
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                            lineNumber: 371,
+                            lineNumber: 363,
                             columnNumber: 25
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$bagus$2d$portofolio$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_$40$babel$2b$core$40$7$2e$2_f33b48a70247a9dd1be9ff747c251290$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1451,7 +1440,7 @@ function ProjectShowcase({ projects = defaultProjects }) {
                                     children: categories.find((c)=>c.id === selectedProject.category)?.label
                                 }, void 0, false, {
                                     fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                                    lineNumber: 403,
+                                    lineNumber: 405,
                                     columnNumber: 29
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$bagus$2d$portofolio$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_$40$babel$2b$core$40$7$2e$2_f33b48a70247a9dd1be9ff747c251290$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1462,7 +1451,7 @@ function ProjectShowcase({ projects = defaultProjects }) {
                                     children: selectedProject.title
                                 }, void 0, false, {
                                     fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                                    lineNumber: 408,
+                                    lineNumber: 410,
                                     columnNumber: 29
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$bagus$2d$portofolio$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_$40$babel$2b$core$40$7$2e$2_f33b48a70247a9dd1be9ff747c251290$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1470,7 +1459,7 @@ function ProjectShowcase({ projects = defaultProjects }) {
                                     children: selectedProject.longDescription || selectedProject.description
                                 }, void 0, false, {
                                     fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                                    lineNumber: 416,
+                                    lineNumber: 418,
                                     columnNumber: 29
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$bagus$2d$portofolio$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_$40$babel$2b$core$40$7$2e$2_f33b48a70247a9dd1be9ff747c251290$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1481,7 +1470,7 @@ function ProjectShowcase({ projects = defaultProjects }) {
                                             children: "Technologies"
                                         }, void 0, false, {
                                             fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                                            lineNumber: 422,
+                                            lineNumber: 424,
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$bagus$2d$portofolio$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_$40$babel$2b$core$40$7$2e$2_f33b48a70247a9dd1be9ff747c251290$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1491,18 +1480,18 @@ function ProjectShowcase({ projects = defaultProjects }) {
                                                     children: tag
                                                 }, tag, false, {
                                                     fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                                                    lineNumber: 425,
+                                                    lineNumber: 427,
                                                     columnNumber: 41
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                                            lineNumber: 423,
+                                            lineNumber: 425,
                                             columnNumber: 33
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                                    lineNumber: 421,
+                                    lineNumber: 423,
                                     columnNumber: 29
                                 }, this),
                                 selectedProject.features && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$bagus$2d$portofolio$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_$40$babel$2b$core$40$7$2e$2_f33b48a70247a9dd1be9ff747c251290$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1513,7 +1502,7 @@ function ProjectShowcase({ projects = defaultProjects }) {
                                             children: "Key Features"
                                         }, void 0, false, {
                                             fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                                            lineNumber: 438,
+                                            lineNumber: 440,
                                             columnNumber: 37
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$bagus$2d$portofolio$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_$40$babel$2b$core$40$7$2e$2_f33b48a70247a9dd1be9ff747c251290$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1533,30 +1522,30 @@ function ProjectShowcase({ projects = defaultProjects }) {
                                                                 d: "M5 13l4 4L19 7"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                                                                lineNumber: 443,
+                                                                lineNumber: 445,
                                                                 columnNumber: 53
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                                                            lineNumber: 442,
+                                                            lineNumber: 444,
                                                             columnNumber: 49
                                                         }, this),
                                                         feature
                                                     ]
                                                 }, i, true, {
                                                     fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                                                    lineNumber: 441,
+                                                    lineNumber: 443,
                                                     columnNumber: 45
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                                            lineNumber: 439,
+                                            lineNumber: 441,
                                             columnNumber: 37
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                                    lineNumber: 437,
+                                    lineNumber: 439,
                                     columnNumber: 33
                                 }, this),
                                 selectedProject.link && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$bagus$2d$portofolio$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_$40$babel$2b$core$40$7$2e$2_f33b48a70247a9dd1be9ff747c251290$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1578,48 +1567,48 @@ function ProjectShowcase({ projects = defaultProjects }) {
                                                 d: "M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
                                             }, void 0, false, {
                                                 fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                                                lineNumber: 462,
+                                                lineNumber: 464,
                                                 columnNumber: 41
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                                            lineNumber: 461,
+                                            lineNumber: 463,
                                             columnNumber: 37
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                                    lineNumber: 454,
+                                    lineNumber: 456,
                                     columnNumber: 33
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$bagus$2d$portofolio$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_$40$babel$2b$core$40$7$2e$2_f33b48a70247a9dd1be9ff747c251290$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "h-16"
                                 }, void 0, false, {
                                     fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                                    lineNumber: 468,
+                                    lineNumber: 470,
                                     columnNumber: 29
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                            lineNumber: 397,
+                            lineNumber: 399,
                             columnNumber: 25
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                    lineNumber: 365,
+                    lineNumber: 357,
                     columnNumber: 21
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-                lineNumber: 360,
+                lineNumber: 352,
                 columnNumber: 17
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/bagus-portofolio/components/portfolio/ProjectShowcase.tsx",
-        lineNumber: 197,
+        lineNumber: 189,
         columnNumber: 9
     }, this);
 }
