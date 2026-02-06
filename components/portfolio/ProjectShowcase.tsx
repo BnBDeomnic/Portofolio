@@ -70,7 +70,7 @@ const defaultProjects: Project[] = [
         tags: ['React', 'Three.js', 'Motion', 'WebGL'],
         features: ['3D Elements', 'Custom Animations', 'Dark Mode', 'Contact Form'],
         year: '2023',
-        image: 'https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=800&h=600&fit=crop',
+        image: 'https://images.unsplash.com/photo-1512314889357-e157c22f938d?w=800&h=600&fit=crop',
         link: '#',
     },
     {
